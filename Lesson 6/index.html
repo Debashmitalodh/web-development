@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<body bgcolor="lightcyan">
+    <h1>Registration Form</h1>
+    <fieldset>
+        <legend>
+            <h4>Personal Information</h4>
+        </legend>
+
+        <form oninput="info.value=n.value">
+            <p>
+                <label>Name:</label>
+                <input type="text" id="n">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email">
+            </p>
+            <p>
+                <label>Password:</label>
+                <input type="password">
+            </p>
+            <p>
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Female <br>
+                <input type="radio" name="gender"> Male
+            </p>
+            <p>
+                <label>Hobbies:</label><br>
+                <input type="checkbox"> Dancing<br>
+                <input type="checkbox"> Reading<br>
+                <input type="checkbox"> Singing<br>
+                <input type="checkbox"> Other
+            </p>
+            <p>
+                <label>
+                    Country:
+                </label>
+                <select>
+                    <option>Bangladesh</option>
+                    <option>India</option>
+                    <option>Nepal</option>
+                    <option>Japan</option>
+                    <option>China</option>
+                </select>
+            </p>
+            <p>
+                <output name="info" for="n"></output>
+            </p>
+            <p>
+                <input type="submit" value="Save information">
+            </p>
+        </form>
+    </fieldset>
+</body>
+
+</html>
