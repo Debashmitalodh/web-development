@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>National ID form</title>
+</head>
+
+<body bgcolor="skyblue">
+    <h1>National ID form</h1>
+    <fieldset>
+        <legend>
+            <h4>Personal Information</h4>
+        </legend>
+
+        <form oninput="info.value=n.value">
+            <p>
+                <label>Name:</label>
+                <input type="text" id="n">
+            </p>
+            <p>
+                <label>Date of birth:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Father's name:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Mother's name:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Nationallty:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>ID NO:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Female <br>
+                <input type="radio" name="gender"> Male
+            </p>
+            <p>
+                <output name="info" for="n"></output>
+            </p>
+            <p>
+                <input type="submit" value="Save information" </p>
+        </form>
+    </fieldset>
+</body>
+
+</html>
