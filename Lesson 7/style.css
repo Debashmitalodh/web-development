@@ -1,0 +1,27 @@
+/* UNIVERSAL SELECTION */
+* {
+    font-family: cursive
+}
+
+/* ELEMENT SELECTION */
+h3 {
+    color: aquamarine;
+}
+
+/* Class Selector */
+.myclass {
+    color: rgb(238, 121, 121)
+}
+
+/* ID SELECTION */
+#myid {
+    color: aquamarine;
+    font-size: 15px;
+}
+
+/* GROUP SELECTOR */
+p,
+i {
+    color: rgb(255, 135, 255);
+    font-weight: bold
+}
