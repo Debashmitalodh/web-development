@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(144, 150, 245);
+    background-color: rgb(209, 159, 255);
 }
 
-.bg_section {
+..be_section {
     width: 100%;
     height: 200px;
-    background-color: rgb(195, 143, 245);
-    background-image: url("Gradient.jpg");
+    background-color: rgb(107, 116, 241);
+    background-image: url("Blue aestheic.jpg");
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,28 +17,28 @@ body {
 .gradient_section {
     width: 100%;
     height: 200px;
-    background-color: rgb(248, 165, 193);
-    background-image: linear-gradient(rgb(128, 0, 128), blue, skyblue)
+    background-color: rgb(205, 138, 250);
+    background-image: linear-gradient(rgb(59, 8, 247), rgb(117, 117, 243), skyblue)
 }
 
 .animation_section {
     width: 100%;
     height: 200px;
-    background-color: rgb(168, 94, 236);
+    background-color: rgb(177, 89, 236);
     animation-name: myanimation;
     animation-duration: 20s;
 }
 
 @keyframes myanimation {
     0% {
-        background-color: rgb(152, 152, 243);
+        background-color: rgb(164, 9, 236);
     }
 
     50% {
-        background-color: rgb(58, 58, 241);
+        background-color: rgb(163, 89, 231);
     }
 
     100% {
-        background-color: blue;
+        background-color: rgb(196, 136, 252);
     }
 }

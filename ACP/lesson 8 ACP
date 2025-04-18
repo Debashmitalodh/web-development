@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cascading Effecte</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="bg_section">
+        <!--Background section-->
+        Bangladesh's history encompasses ancient kingdoms and empires, Muslim rule, British colonial rule, and a
+        struggle for
+        independence. The region, formerly known as Bengal, was a center for Hindu and Buddhist dynasties before the
+        arrival of
+        Islam in the 8th century. The region became part of the Mughal Empire and later the British East India Company,
+        experiencing significant economic and political changes. After the partition of British India in 1947, East
+        Bengal
+        became East Pakistan, leading to a war of independence in 1971 and the birth of Bangladesh.
+    </section>
+    <br><br>
+    <section class="gradient_section">
+
+    </section>
+
+    <br><br>
+    <section class="animation_section">
+
+    </section>
+</body>
+
+</html>
