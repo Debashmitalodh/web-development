@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Baking Workshop</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to the Baking Workshop</h1>
+    </header>
+
+    <section class="about">
+        <p>A baking class typically provides hands-on instruction in preparing various baked goods, covering basic
+            techniques and
+            principles. Participants learn about ingredients, measuring, mixing, and baking processes, while also
+            developing skills
+            in areas like decorating and food safety. The class can range from introductory levels focusing on
+            fundamentals to more
+            advanced courses exploring specific techniques or types of baked goods.</p>
+    </section>
+
+    <section class="workshops">
+        <h2>Upcoming workshops</h2>
+        <p>Baking Fundamentals </p>
+        <p>Ingredient knowledge </p>
+    </section>
+
+    <section class="contact">
+        <p>for more info, email to
+            <a href="mailto:contact@email.com">contact@email.com</a>
+        </p>
+    </section>
+</body>
+
+</html>
