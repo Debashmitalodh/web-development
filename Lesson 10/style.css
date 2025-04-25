@@ -1,0 +1,51 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: antiquewhite;
+}
+
+h1 {
+    color: rgb(176, 105, 241);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Advanced Selector: Child-Selector */
+ul>li {
+    font-weight: bold;
+}
+
+/* Advanced Selector: sliblibng-Selector */
+h2+p {
+    background-color: gray;
+}
+
+/* Pseudoclass : hover */
+ul li:hover {
+    color: rgb(126, 115, 115);
+}
+
+/* Pseudoclass :nth-child */
+ul li:nth-child(3) {
+    background-color: rgb(174, 96, 248);
+}
+
+/* Pseudo-elements ::first-letter */
+p::first-letter {
+    font-size: 30px;
+}
+
+/* Pseudo-elements ::before */
+ul li::before {
+    content: " 🚀 ";
+}
+
+a {
+    color: rgb(178, 107, 245);
+}
+
+a::after {
+    content: " 🚢 ";
+}
