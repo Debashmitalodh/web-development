@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="demo">Doom Structure</title>
+    </head>
+    <body>
+        <p>Adding JavaScript as seperate file and assigning value fom one node to other</p>
+
+        <button type="button" onclick="myFunction()">Click Me!!</button>
+
+        <p id="result"></p>
+        <p id="result1"></p>
+
+        <script src="script2.js"></script>
+    </body>
+</html>
